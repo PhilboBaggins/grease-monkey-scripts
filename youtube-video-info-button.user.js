@@ -1,17 +1,15 @@
 // ==UserScript==
 // @name        YouTube video info button
-// @description Adds a button to youtube pages that, when clicked, will
-//              display infomation about YouTube video in Markdown format.
 // @namespace   youtube-video-info-button
+// @description Adds a button to youtube pages that, when clicked, will display infomation about YouTube video in Markdown format.
 // @include     http://www.youtube.com/watch?*
 // @include     https://www.youtube.com/watch?*
 // @match       http://www.youtube.com/watch?*
 // @match       https://www.youtube.com/watch?*
-// @homepageURL ???????????????????
-// @updateURL   ???????????????????
+// @grant       none
 // @author      Phil
-// @date        2014-02-03
 // @license     MIT License
+// @updateURL   https://github.com/PhilboBaggins/grease-monkey-scripts/raw/master/youtube-video-info-button.user.js
 // @version     1
 // ==/UserScript==
 

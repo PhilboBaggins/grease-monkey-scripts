@@ -1,16 +1,15 @@
 // ==UserScript==
 // @name        YouTube query cleaner
-// @description Removes junk from YouTube URLs
 // @namespace   youtube-query-cleaner
+// @description Removes junk from YouTube URLs
 // @include     http://www.youtube.com/watch?*
 // @include     https://www.youtube.com/watch?*
 // @match       http://www.youtube.com/watch?*
 // @match       https://www.youtube.com/watch?*
-// @homepageURL ???????????????????
-// @updateURL   ???????????????????
+// @grant       none
 // @author      Phil
-// @date        2013-05-22
 // @license     MIT License
+// @updateURL   https://github.com/PhilboBaggins/grease-monkey-scripts/raw/master/youtube-query-cleaner.user.js
 // @version     1
 // ==/UserScript==
 

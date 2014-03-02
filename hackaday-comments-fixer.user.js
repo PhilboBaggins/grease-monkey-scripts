@@ -3,12 +3,12 @@
 // @namespace   hack-a-day-comment-fixer
 // @description Hide those annoying "This is not a hack" comments on hackaday.com
 // @include     http://hackaday.com/*
-// @author      Phil
-// @version     1
 // @grant       none
+// @author      Phil
+// @license     MIT License
+// @updateURL   https://github.com/PhilboBaggins/grease-monkey-scripts/raw/master/hackaday-comments-fixer.user.js
+// @version     1
 // ==/UserScript==
-
-// Test page: http://hackaday.com/2014/02/04/manual-bitcoin-transactions/
 
 function makeid(length)
 {

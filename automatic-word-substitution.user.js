@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name        Automatic word substitution
 // @namespace   automatic-word-substitution
-// @include     http://127.0.0.1*
-// @version     1
+// @description Substitute words and phrases in web pages for more entertaining alternatives
 // @grant       none
+// @author      Phil
+// @license     MIT License
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js
+// @updateURL   https://github.com/PhilboBaggins/grease-monkey-scripts/raw/master/automatic-word-substitution.user.js
+// @version     1
 // ==/UserScript==
 
 console.time('Automatic word substitution execution time');

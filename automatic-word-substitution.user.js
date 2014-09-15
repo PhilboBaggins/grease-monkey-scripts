@@ -56,6 +56,10 @@ $('*')
     .replaceText('demented', 'fahrbot')
     // Futurama
     .replaceText('ask you a question', 'axe you a question')
+    // XKCD 1418
+    .replaceText('Force', 'Horse')
+    .replaceText('force', 'horse')
     ;
 
 console.timeEnd('Automatic word substitution execution time');
+

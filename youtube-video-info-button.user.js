@@ -6,11 +6,11 @@
 // @include     https://www.youtube.com/watch?*
 // @match       http://www.youtube.com/watch?*
 // @match       https://www.youtube.com/watch?*
-// @grant       none
+// @grant       GM_xmlhttpRequest
 // @author      Phil
 // @license     MIT License
 // @updateURL   https://github.com/PhilboBaggins/grease-monkey-scripts/raw/master/youtube-video-info-button.user.js
-// @version     1
+// @version     1.1
 // ==/UserScript==
 
 function parseQuery(query) {
@@ -19,7 +19,7 @@ function parseQuery(query) {
     var retVal = {};
     var vars = query.split('&');
     for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split("=");
+        var pair = vars[i].split('=');
         var key = pair[0];
         retVal[key] = pair[1];
     }
@@ -31,7 +31,7 @@ function getVideoData(callback) {
     var items = parseQuery(query);
     if (items && items.v) {
         GM_xmlhttpRequest({
-            method: "GET",
+            method: 'GET',
             url: 'https://gdata.youtube.com/feeds/api/videos/' + items.v + '?v=2&alt=jsonc',
             onload: function(xhr) {
                 var data = JSON.parse(xhr.responseText);
@@ -61,6 +61,6 @@ function addButton(video) {
     button.addEventListener('click', function() { alert(markdownData); }, true);
 }
 
-window.addEventListener("load", function(e) {
+window.addEventListener('load', function(e) {
     getVideoData(addButton);
 }, false);

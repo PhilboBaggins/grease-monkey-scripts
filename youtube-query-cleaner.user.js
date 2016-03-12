@@ -31,7 +31,7 @@ var items = parseQuery(query);
 if (items && items.v) {
     // Should consider https://news.ycombinator.com/item?id=6251585
 
-    var newURL = window.location.protocol + '//www.youtube.com/watch?v=' + items.v + (items.t ? '&t='+items.t : '') //+ (items.hd ? '&hd='+items.hd : '')
+    var newURL = window.location.protocol + '//www.youtube.com/watch?v=' + items.v + (items.t ? '&t='+items.t : ''); //+ (items.hd ? '&hd='+items.hd : '')
     if (newURL !== window.location.href) {
         window.location.href = newURL;
     }

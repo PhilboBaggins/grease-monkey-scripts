@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        YouTube video info button
 // @namespace   youtube-video-info-button
-// @description Adds a button to youtube pages that, when clicked, will display infomation about YouTube video in Markdown format.
+// @description Adds a button to Youtube video pages that you can click to display infomation about the video in Markdown format.
 // @include     http://www.youtube.com/watch?*
 // @include     https://www.youtube.com/watch?*
 // @match       http://www.youtube.com/watch?*
